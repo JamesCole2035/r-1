@@ -1,3 +1,4 @@
 let myAge = 32;
 let myName = "Михаил Бочков";
-console.log(myName + ", " + myAge + " года");
+let myHomeTown = "Тюмень";
+console.log('Меня зовут ' + myName + ", мне " + myAge + " года");
