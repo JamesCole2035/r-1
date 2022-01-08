@@ -1,9 +1,14 @@
 import './WelcomeClass.css';
-import React, { Component } from 'react';
-
+import React from 'react';
 class WelcomeClass extends React.Component {
     render() {
-        return <div className='Welcome'>это классовый компонент</div>
-    }
+        const buttonText = true;
+        return(
+            <div className='welcome'>
+                <p className='welcome__text'>это {this.props.text} компонент</p>
+                <button className="welcome__button">{buttonText?"это кнопка":"нет кнопки"}</button>
+            </div>            
+        )
+    }        
 }
 export default WelcomeClass;

@@ -5,9 +5,9 @@ import WelcomeClass from './Components/WelcomeClass/WelcomeClass';
 import WelcomeFunc from './Components/WelcomeFunc/WelcomeFunc';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <WelcomeFunc/>
-    <WelcomeClass/>
-  </React.StrictMode>,
+  <div className='main'>
+    <WelcomeFunc text="ФУНКЦИОНАЛЬНЫЙ" />
+    <WelcomeClass text="КЛАССОВЫЙ" />
+  </div>,
   document.getElementById('root')
 );
